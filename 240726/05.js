@@ -15,6 +15,10 @@ let arr2 =  [10, 22, 33]
 let arr5 = [];
 // 5의 배수를 찾아 반환하세요
 // 해당 로직 작성해주세요
-arr2.forEach((n => arr5.push(n % 5 === 0)));
+arr2.forEach(function(arr2){
+    if (arr2 % 5 === 0)
+        arr5.push(arr2);
+    
+}) 
 // 결과값 [10]
 console.log(arr5);
