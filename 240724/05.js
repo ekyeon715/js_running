@@ -1,7 +1,8 @@
 const scores = [36, 62, 72, 55, 86, 95, 92, 48, 81];
 
-function 함수명(scores) {
+function add3(scores) {
     // 4번 문제의 계산기 함수를 활용한 코드를 작성해주세요.
+    
 }
 
 console.log(scores);
